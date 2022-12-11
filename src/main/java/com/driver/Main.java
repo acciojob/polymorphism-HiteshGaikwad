@@ -20,6 +20,7 @@ public class Main {
         double a=0.0, b=0.0;
         p.product(x,y);
         p.product(x,y,z);
+
         p.product(a,b);
     }
 }
