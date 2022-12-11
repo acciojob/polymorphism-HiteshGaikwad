@@ -4,13 +4,13 @@ public class Main {
 
     public static class Product{
         public int product(int x, int y) {
-            return 0;
+            return x*y;
         }
         public int product(int x, int y, int z) {
-            return 0;
+            return x*y*z;
         }
         public double product(double x, double y) {
-            return 0.0;
+            return x*y;
         }
     }
 
@@ -20,7 +20,6 @@ public class Main {
         double a=0.0, b=0.0;
         p.product(x,y);
         p.product(x,y,z);
-
         p.product(a,b);
     }
 }
